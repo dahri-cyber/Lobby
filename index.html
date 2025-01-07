@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobby Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #1e90ff, #87cefa);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+    .lobby-container {
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: #1e90ff;
+      background: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background: #1e90ff;
+      color: #fff;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="lobby-container">
+    <h1>Welcome to the Lobby</h1>
+    <p>Select an option to proceed:</p>
+    <div class="buttons">
+      <button onclick="window.location.href='https://example.com/page1'">Go to Page 1</button>
+      <button onclick="window.location.href='https://example.com/page2'">Go to Page 2</button>
+      <button onclick="window.location.href='https://example.com/page3'">Go to Page 3</button>
+    </div>
+    <footer>&copy; 2024  Website fahri XI TKJ. All Rights Reserved.</footer>
+  </div>
+</body>
+</html>
